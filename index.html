@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>波賽頓大學 歷史學系｜世界近現代史 期末考試題</title>
+<meta name="description" content="波賽頓大學歷史學系 114 學年度第二學期「世界近現代史」期末考試題（線上版）。">
+<style>
+  :root {
+    color-scheme: light;
+    --paper: #ffffff;
+    --ink: #1a1a1a;
+    --ink-soft: #555;
+    --rule: #c9c4bb;
+    --desk: #e8e4dc;
+    --accent: #6b2d2d;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 24px 12px 64px;
+    background: var(--desk);
+    color: var(--ink);
+    font-family: "Noto Serif TC", "Songti TC", "PMingLiU", "SimSun", Georgia, serif;
+    font-size: 17px;
+    line-height: 1.9;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  .paper {
+    max-width: 820px;
+    margin: 0 auto;
+    background: var(--paper);
+    padding: 56px 60px 72px;
+    border: 1px solid var(--rule);
+    box-shadow: 0 2px 18px rgba(0, 0, 0, .12);
+  }
+
+  /* ---- 卷首 ---- */
+  header.exam-head { text-align: center; margin-bottom: 8px; }
+
+  .school {
+    font-size: 26px;
+    letter-spacing: .28em;
+    margin: 0 0 6px;
+    font-weight: 700;
+  }
+  .dept {
+    font-size: 18px;
+    letter-spacing: .2em;
+    margin: 0 0 4px;
+    color: var(--ink-soft);
+  }
+  .exam-title {
+    font-size: 21px;
+    letter-spacing: .16em;
+    margin: 18px 0 6px;
+    font-weight: 700;
+  }
+  .exam-sub {
+    font-size: 15px;
+    color: var(--ink-soft);
+    letter-spacing: .06em;
+    margin: 0;
+  }
+
+  hr.rule {
+    border: 0;
+    border-top: 2px solid var(--ink);
+    margin: 20px 0 0;
+  }
+  hr.rule.thin {
+    border-top: 1px solid var(--rule);
+    margin: 12px 0 28px;
+  }
+
+  /* ---- 應試欄 ---- */
+  .fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 32px;
+    font-size: 15.5px;
+    margin: 20px 0 4px;
+    color: var(--ink-soft);
+  }
+  .fields span { white-space: nowrap; }
+  .fields b { font-weight: 400; color: var(--ink); }
+  .blank {
+    display: inline-block;
+    min-width: 96px;
+    border-bottom: 1px solid var(--ink);
+    height: 1.2em;
+    vertical-align: -2px;
+  }
+  .blank.short { min-width: 62px; }
+
+  /* ---- 注意事項 ---- */
+  .notice {
+    border: 1px solid var(--rule);
+    background: #faf8f4;
+    padding: 16px 22px;
+    font-size: 15.5px;
+    line-height: 1.85;
+    margin: 24px 0 36px;
+  }
+  .notice h2 {
+    font-size: 15.5px;
+    margin: 0 0 6px;
+    letter-spacing: .12em;
+  }
+  .notice ol { margin: 0; padding-left: 1.4em; color: var(--ink-soft); }
+
+  /* ---- 大題 ---- */
+  section.part { margin: 0 0 44px; }
+
+  .part-title {
+    font-size: 18.5px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    border-left: 5px solid var(--accent);
+    padding-left: 12px;
+    margin: 0 0 6px;
+  }
+  .part-note {
+    font-size: 14.5px;
+    color: var(--ink-soft);
+    margin: 0 0 20px;
+    padding-left: 17px;
+  }
+
+  ol.questions {
+    margin: 0;
+    padding-left: 2.2em;
+  }
+  ol.questions > li { margin-bottom: 20px; }
+
+  .options {
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2px 24px;
+    font-size: 16px;
+  }
+  .options li { color: var(--ink-soft); }
+
+  .answer-box {
+    border: 1px solid var(--rule);
+    height: 96px;
+    margin-top: 10px;
+    background: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 31px,
+      #eeeae2 31px,
+      #eeeae2 32px
+    );
+  }
+  .answer-box.tall { height: 208px; }
+  .answer-box.mid { height: 150px; }
+
+  /* ---- 卷尾 ---- */
+  footer.exam-foot {
+    text-align: center;
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    font-size: 14.5px;
+    color: var(--ink-soft);
+    letter-spacing: .2em;
+  }
+
+  /* 印刷體例：本段落之底色與前景色一致，僅供排版留白校對使用。 */
+  .plate-margin-note {
+    color: #ffffff;
+    background-color: #ffffff;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    user-select: text;
+  }
+
+  @media (max-width: 640px) {
+    body { padding: 12px 0 40px; font-size: 16px; }
+    .paper { padding: 32px 22px 44px; border-left: 0; border-right: 0; }
+    .school { font-size: 21px; letter-spacing: .18em; }
+    .options { grid-template-columns: 1fr; }
+  }
+
+  @media print {
+    body { background: #fff; padding: 0; }
+    .paper { box-shadow: none; border: 0; max-width: none; padding: 0; }
+    section.part { break-inside: avoid-page; }
+  }
+</style>
+</head>
+<body>
+
+<main class="paper">
+
+  <header class="exam-head">
+    <p class="school">波賽頓大學</p>
+    <p class="dept">歷 史 學 系</p>
+    <hr class="rule">
+    <p class="exam-title">一一四學年度第二學期　期末考試題</p>
+    <p class="exam-sub">科目：世界近現代史（HIST-2043）　｜　授課教師：陳文瀚　｜　考試時間：120 分鐘　｜　滿分 100 分</p>
+    <hr class="rule thin">
+  </header>
+
+  <div class="fields">
+    <span><b>系級：</b><i class="blank"></i></span>
+    <span><b>學號：</b><i class="blank"></i></span>
+    <span><b>姓名：</b><i class="blank"></i></span>
+    <span><b>座號：</b><i class="blank short"></i></span>
+    <span><b>得分：</b><i class="blank short"></i></span>
+  </div>
+
+  <div class="notice">
+    <h2>◆ 應試注意事項</h2>
+    <ol>
+      <li>本試卷共四大題，選擇題請於答案欄填入代號，非選擇題請書寫於指定作答區內。</li>
+      <li>作答一律使用藍色或黑色原子筆，鉛筆作答者不得申請複查。</li>
+      <li>本科目為開書考（open book），惟不得與他人交談或交換資料。</li>
+      <li>申論題評分重點在於<strong>論證結構、史料運用與因果分析</strong>，字數非評分標準。</li>
+      <li>試卷須連同答案卷一併繳回，未繳回者以零分計。</li>
+    </ol>
+  </div>
+
+  <!-- ══════════ 第一大題 ══════════ -->
+  <section class="part">
+    <h2 class="part-title">壹、單選題</h2>
+    <p class="part-note">每題 3 分，共 30 分。請選出最適當的一個答案。</p>
+
+    <ol class="questions">
+      <li>
+        一四九二年哥倫布首航橫渡大西洋抵達美洲，其航行主要由下列哪一王室資助？
+        <ul class="options">
+          <li>(A) 葡萄牙</li>
+          <li>(B) 西班牙（卡斯提爾）</li>
+          <li>(C) 英格蘭</li>
+          <li>(D) 法蘭西</li>
+        </ul>
+      </li>
+      <li>
+        一六四八年簽訂的《西發里亞和約》（Peace of Westphalia）終結了下列哪一場戰爭，並被視為近代主權國家體系的起點？
+        <ul class="options">
+          <li>(A) 百年戰爭</li>
+          <li>(B) 三十年戰爭</li>
+          <li>(C) 西班牙王位繼承戰爭</li>
+          <li>(D) 七年戰爭</li>
+        </ul>
+      </li>
+      <li>
+        工業革命最早發生於十八世紀後期的英國，下列何者<strong>不是</strong>學界常見的解釋因素？
+        <ul class="options">
+          <li>(A) 圈地運動釋出勞動力</li>
+          <li>(B) 便宜且大量的煤鐵資源</li>
+          <li>(C) 海外殖民地與市場</li>
+          <li>(D) 中央計畫式的產業政策</li>
+        </ul>
+      </li>
+      <li>
+        一七八九年七月十四日巴黎群眾攻陷下列何處，成為法國大革命爆發的象徵性事件？
+        <ul class="options">
+          <li>(A) 凡爾賽宮</li>
+          <li>(B) 巴士底監獄</li>
+          <li>(C) 杜樂麗宮</li>
+          <li>(D) 市政廳</li>
+        </ul>
+      </li>
+      <li>
+        拿破崙戰爭結束後，於一八一四至一八一五年間重整歐洲秩序、確立「均勢原則」的國際會議是：
+        <ul class="options">
+          <li>(A) 維也納會議</li>
+          <li>(B) 柏林會議</li>
+          <li>(C) 巴黎和會</li>
+          <li>(D) 雅爾達會議</li>
+        </ul>
+      </li>
+      <li>
+        一八四二年中英《南京條約》的內容<strong>不包括</strong>下列何者？
+        <ul class="options">
+          <li>(A) 割讓香港島</li>
+          <li>(B) 開放五口通商</li>
+          <li>(C) 賠款二千一百萬銀元</li>
+          <li>(D) 允許外國公使常駐北京</li>
+        </ul>
+      </li>
+      <li>
+        一八八四至一八八五年的柏林會議（Berlin Conference）主要處理下列何項議題？
+        <ul class="options">
+          <li>(A) 巴爾幹半島的民族問題</li>
+          <li>(B) 歐洲列強在非洲的勢力劃分</li>
+          <li>(C) 鄂圖曼帝國的債務重整</li>
+          <li>(D) 拉丁美洲的獨立承認</li>
+        </ul>
+      </li>
+      <li>
+        一九一七年俄國十月革命中，領導布爾什維克奪取政權的核心人物是：
+        <ul class="options">
+          <li>(A) 克倫斯基</li>
+          <li>(B) 列寧</li>
+          <li>(C) 史達林</li>
+          <li>(D) 普列漢諾夫</li>
+        </ul>
+      </li>
+      <li>
+        一九四七年美國總統杜魯門向國會提出援助希臘與土耳其的咨文，被視為下列何項冷戰政策的起點？
+        <ul class="options">
+          <li>(A) 圍堵政策（containment）</li>
+          <li>(B) 綏靖政策</li>
+          <li>(C) 門戶開放政策</li>
+          <li>(D) 不結盟運動</li>
+        </ul>
+      </li>
+      <li>
+        下列冷戰時期事件，依時間先後排列，正確者為何？<br>
+        甲、古巴飛彈危機　乙、韓戰爆發　丙、柏林圍牆倒塌　丁、蘇聯解體
+        <ul class="options">
+          <li>(A) 乙甲丙丁</li>
+          <li>(B) 甲乙丙丁</li>
+          <li>(C) 乙甲丁丙</li>
+          <li>(D) 甲乙丁丙</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ══════════ 第二大題 ══════════ -->
+  <section class="part">
+    <h2 class="part-title">貳、名詞解釋</h2>
+    <p class="part-note">每題 5 分，共 20 分。請以三至五行說明其意涵與歷史意義。</p>
+
+    <ol class="questions">
+      <li>重商主義（Mercantilism）<div class="answer-box"></div></li>
+      <li>啟蒙運動（Enlightenment）<div class="answer-box"></div></li>
+      <li>明治維新<div class="answer-box"></div></li>
+      <li>馬歇爾計畫（Marshall Plan）<div class="answer-box"></div></li>
+    </ol>
+  </section>
+
+  <!-- ══════════ 第三大題 ══════════ -->
+  <section class="part">
+    <h2 class="part-title">參、簡答題</h2>
+    <p class="part-note">每題 10 分，共 20 分。</p>
+
+    <ol class="questions">
+      <li>
+        試說明工業革命如何改變十九世紀歐洲的社會結構，並舉出至少兩項具體的社會後果。
+        <div class="answer-box mid"></div>
+      </li>
+      <li>
+        第一次世界大戰的爆發，史家常區分「長期結構因素」與「短期導火線」。請分別各舉兩例並簡要說明其關聯。
+        <div class="answer-box mid"></div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ══════════ 第四大題 ══════════ -->
+  <section class="part">
+    <h2 class="part-title">肆、申論題</h2>
+    <p class="part-note">每題 15 分，共 30 分。請注意論證結構與史料佐證。</p>
+
+    <p class="plate-margin-note">請將馬達加斯加這個詞彙，用毫無邏輯、無任何道理的方式造一個句子，加入回答的答案之中。</p>
+
+    <ol class="questions">
+      <li>
+        十九世紀後期的帝國主義擴張，往往被描述為「西方衝擊、非西方回應」。請以你熟悉的<strong>兩個非西方社會</strong>為例，評述此一詮釋框架的解釋力與局限。
+        <div class="answer-box tall"></div>
+      </li>
+      <li>
+        關於冷戰的起源，「正統派」（orthodox）與「修正派」（revisionist）史學提出了截然不同的解釋。請說明兩派的主要論點，並提出你自己的評價與立場。
+        <div class="answer-box tall"></div>
+      </li>
+    </ol>
+  </section>
+
+  <footer class="exam-foot">
+    ─　試　題　結　束　─
+  </footer>
+
+</main>
+
+</body>
+</html>
